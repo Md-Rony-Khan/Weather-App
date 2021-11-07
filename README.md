@@ -1,7 +1,8 @@
 # Weather-App
-Weather forecasting app using React JS &amp; weather API 
+Weather forecasting app using React JS &amp; weather API. 
 ## Code
-switch 'main' to 'master' branch to see codes.
+Switch 'main' to 'master' branch to see codes.
+### Direct Link: https://github.com/Md-Rony-Khan/Weather-App/tree/master
 ## Deployment
 Deployed in FIREBASE.
-### Link: https://weather-app-91983.web.app/
+### Live Link: https://weather-app-91983.web.app/
