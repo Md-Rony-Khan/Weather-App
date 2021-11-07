@@ -2,6 +2,6 @@
 Weather forecasting app using React JS &amp; weather API 
 ## Code
 switch 'main' to 'master' branch to see codes.
-## Live
+## Deployment
 Deployed in FIREBASE.
-Link: 
+### Link: https://weather-app-91983.web.app/
