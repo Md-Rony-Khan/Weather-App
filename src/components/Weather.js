@@ -3,7 +3,8 @@ import Body from './Body';
 import Form from './Form';
 import './weather.style.css';
 
-// api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
+/* openweathermap
+ api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key} */
 const apiKey = 'f675fcf32c12c0998879d69c13aedb3a';
 
 export default class Weather extends React.Component {
@@ -93,7 +94,7 @@ export default class Weather extends React.Component {
 
         if (city) {
             const apiCall = await fetch(
-                `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`
+                `https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=${apiKey}`
             );
             const response = await apiCall.json();
 
@@ -137,7 +138,6 @@ export default class Weather extends React.Component {
     );
 
     render() {
-        // eslint-disable-next-line react/destructuring-assignment
         const {
             city,
             temperatureCel,
@@ -157,7 +157,6 @@ export default class Weather extends React.Component {
                 {city ? (
                     <Body
                         minmaxTemp={this.minmaxTemp}
-                        // eslint-disable-next-line react/destructuring-assignment
                         city={city}
                         temperatureCel={temperatureCel}
                         temperatureFar={temperatureFar}

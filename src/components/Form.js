@@ -17,15 +17,6 @@ function Form({ getWeather, error }) {
                             placeholder="City"
                         />
                     </div>
-                    {/* <div className="col-md-3">
-                        <input
-                            type="text"
-                            className="form-control"
-                            name="country"
-                            autoComplete="off"
-                            placeholder="Country"
-                        />
-                    </div> */}
                     <div className="col-md-3 mt-md-0 mt-2 text-md-left ">
                         <input type="submit" className="btn btn-warning" value="Get Weather" />
                     </div>
